@@ -3,6 +3,7 @@ class Hogar {
 	var property confort = 0;
 		
 	method esBuene() { return mugre <= confort / 2 }
+	method fueAtacade(plaga) { mugre = mugre + plaga.nivelDeDanio() }
 }
 
 class Huerta {
