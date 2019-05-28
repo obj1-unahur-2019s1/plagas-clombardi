@@ -2,7 +2,6 @@ class Plaga {
 	var property poblacion	
 	method transmiteEnfermedades() { return poblacion >= 10 }
 	method atacar(elemento) {
-		elemento.fueAtacade(self)
 		poblacion = poblacion + (poblacion * (10/100))
 	}
 }
